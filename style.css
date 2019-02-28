@@ -1,0 +1,323 @@
+body{
+    /*background-image: url("Screenshot_2018-09-04.png");*/
+    margin:0px;
+
+}
+#fb{
+	max-width:100%;
+        height:100%;
+	border:0px solid;
+}
+#header{
+    /*opacity: 0.3;
+    filter: alpha(opacity=30);*/
+    background:linear-gradient(#4c67a1,#3b5998);
+    width:100%;
+    height:83px;
+    font-family:sans-serif;
+}
+#header #logo a{
+    color:white;
+    font-size:45px;
+    font-weight:bold;
+    text-decoration:none;
+    position:absolute;
+    left:222px;
+    top:23px;
+}
+#header form1{
+    position:absolute;
+    left:827px;
+    top:15px;
+}
+#header form1 label{
+    font-size:12px;
+    color:white;
+}
+#header form2{
+    position:absolute;
+    left:991px;
+    top:15px;
+}
+#header form2 label{
+    font-size:12px;
+    color:white;
+}
+#header #btnlogin{
+    padding-left:1154px;
+    padding-top:34px;
+    color:white;
+}
+#header form1 input{
+    width:86%;
+    height:23px;
+    margin-top:5px;
+    border:1px solid black;
+}
+#header form2 input{
+    width:86%;
+    height:23px;
+    margin-top:5px;
+    border:1px solid black;
+}
+#header #btnlogin input{
+    color:white;
+    background-color:#4267b2;
+    border:1px solid #29487d;
+    width:19%;
+    height:23px;
+    font-weight:bold;
+    text-align:center;
+    font-size:11px;
+    padding:3px;
+}
+#header #btnlogin input:hover{
+    background:#3b5998;
+}
+#header form2 a{
+    font-size:13px;
+    color:#9cb4d8;
+    text-decoration: none;
+    position:absolute;
+    left:-1px;
+    top:47px;
+}
+#header form2 a:hover{
+    text-decoration:underline;
+}
+#mid{
+position:absolute;
+    left:0px;
+    top:83px;
+    /*opacity: 0.6;
+    filter: alpha(opacity=30);*/
+    background:linear-gradient(#fefefe,#d3d8e8);
+    width:100%;
+    height:580px;
+}
+#mid #para{
+    font-family:sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    color:#0e385f;
+    padding-left:222px;
+    padding-top:25px;
+}
+#mid #imagemain{
+    position:absolute;
+    left:222px;
+    top:100px;
+}
+#mid #signupform{
+    border:0px solid;
+    position:absolute;
+    left:800px;
+    top:0px;
+    width:100%;
+    height:99.6%;
+}
+#mid #signupform h1{
+    font-family:sans-serif;
+    font-size:36px;
+    color:#333333;
+}
+#mid #signupform #p1 p{
+    font-family:sans-serif;
+    font-size:18px;
+    color:#1d2129;
+    position:absolute;
+    left:1px;
+    top:57px;
+}
+#mid #signupform #fn{
+    height:40px;
+    border:1px solid #BDBDBD;
+    border-radius: 5px;
+    width:195px;
+    position:absolute;
+    left:1px;
+    top:118px;
+    padding-left:8px;
+    font-size:20px;
+    font-family:sans-serif;
+}
+#mid #signupform #sn{
+    height:40px;
+    border:1px solid #BDBDBD;
+    border-radius: 5px;
+    width:195px;
+    position:absolute;
+    left:206px;
+    top:118px;
+    padding-left:8px;
+    font-size:20px;
+    font-family:sans-serif;
+}
+#mid #signupform #pe{
+    height:40px;
+    border:1px solid #BDBDBD;
+    border-radius: 5px;
+    width:399px;
+    position:absolute;
+    left:1px;
+    top:168px;
+    padding-left:8px;
+    font-size:20px;
+    font-family:sans-serif;
+}
+#mid #signupform #pass2{
+    height:40px;
+    border:1px solid #BDBDBD;
+    border-radius: 5px;
+    width:399px;
+    position:absolute;
+    left:1px;
+    top:218px;
+    padding-left:8px;
+    font-size:20px;
+    font-family:sans-serif;
+}
+#mid #signupform #bd #bday{
+    position:absolute;
+    left:0px;
+    top:262px;
+    font-size:18px;
+    font-family:sans-serif;
+    color:#1d2129;
+}
+#mid #signupform #bd #options{
+    position:absolute;
+    left:1px;
+    top:307px;
+    font-size:18px;
+    font-family:sans-serif;
+    color:#1d2129;
+}
+#mid #signupform #bd #options select{
+    height:29px;
+    width:62px;
+    float:left;
+}
+#mid #signupform #bd a{
+    color:#365899;
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size:11px;
+    position:absolute;
+    top:310px;
+    left:209px;
+}
+#mid #signupform #bd a:hover{
+      text-decoration:underline;
+}
+#mid #signupform #gender{
+    padding-top:209px;
+    padding-left:4px;
+    float:left;
+}
+#mid #signupform #gender input{
+    width:15px;
+    height:13px;
+}
+#mid #signupform #gender label{
+    font-family:sans-serif;
+    color:#1d2129;
+    font-size:20px;
+}
+#mid #signupform #terms{
+    color:#777777;
+    font-family:sans-serif;
+    font-size:10.1px;
+    position:absolute;
+    left:2px;
+    top:393px;
+}
+#mid #signupform #terms a{
+    color:#365899;
+    text-decoration:none;
+}
+#mid #signupform #terms a:hover{
+    text-decoration:underline;
+}
+#mid #signupform #signup input{
+    border:1px solid #3b6e22;
+    border-radius:5px;
+    width:194px;
+    height:40px;
+    background:linear-gradient(#64a751,#609d4d);
+    position:absolute;
+    left:2px;
+    top:457px;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:18px;
+    color:#ffffff;
+}
+#mid #signupform #signup input:hover{
+    background:linear-gradient(#609d4d,#64a751);
+}
+#mid #signupform #create_page{
+    color:#666666;
+    position:absolute;
+    left:3px;
+    top:534px;
+    font-family:sans-serif;
+    font-size:13px;
+}
+#mid #signupform #create_page a{
+    color:#365899;
+    text-decoration: none;
+}
+#mid #signupform #create_page a:hover{
+	text-decoration:underline;
+}
+#footer{
+ width:100%;
+ clear:both;
+ margin-top:581px;
+ background-color:white;
+ text-align:left;
+    /*opacity: 0.6;
+    filter: alpha(opacity=30);*/
+}
+#footer #footer1 a:hover{
+	text-decoration:underline;
+}
+#footer #footer2 a:hover{
+	text-decoration:underline;
+}
+#footer #footer1{
+    padding-left:15.5%;
+    padding-top:18px;
+    font-family:sans-serif;
+    font-size:13px;
+}
+#footer #hrhr{
+    max-width:70%;
+    padding-left:15.5%;
+    color:#dddfe2;
+}
+#footer #footer2{
+    padding-left:15.5%;
+    padding-top:4px;
+    font-family:sans-serif;
+    font-size:13px;
+}
+#footer #footer2 a{
+    text-decoration:none;
+    color:#5b58b2;
+    float:left;
+    padding:0px 10px;
+}
+#footer #footer1 a{
+    text-decoration:none;
+    color:#5b58b2;
+    float:left;
+    padding:0px 10px;
+}
+#footer #footer2 p{
+    color:#737373;
+    font-family:sans-serif;
+    float:left;
+    padding-left:10px;
+}
